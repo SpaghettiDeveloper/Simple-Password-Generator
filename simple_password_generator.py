@@ -9,6 +9,7 @@ Created on 11 giu 2016
 
 import string
 from random  import *
+
 characters = string.ascii_letters+string.punctuation+string.digits
 password = "".join(choice(characters) for x in range(randint(9, 16)))
 print("Password Generated:")
